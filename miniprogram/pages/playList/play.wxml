@@ -1,2 +1,28 @@
 <!--pages/playList/play.wxml-->
-<text>pages/playList/play.wxml</text>
+<swiper
+  indicator-dots="true"
+  autoplay
+  interval="1000"
+  circular
+>
+  <block wx:for="{{imageList}}" wx:key="url">
+    <swiper-item>
+      <image
+        src="{{item.url}}"
+        mode="widthFix"
+        class="image-container"
+      />
+    </swiper-item>
+  </block>
+</swiper>
+<view class="play-list">
+  <block wx:for="{{playList}}" wx:key="url">
+    <view class="play-container">
+      <l-playList
+      picUrl="{{item.picUrl}}"
+      count="{{item.playCount}}"
+      name="{{item.name}}"
+    ></l-playList>
+    </view>
+  </block>
+</view>

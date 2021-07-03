@@ -1,0 +1,6 @@
+<!--miniprogram/components/playList/playList.wxml-->
+<view class="play-container">
+  <image src="{{picUrl}}" class="play-image"></image>
+  <text class="play-count">{{_count}}</text>
+  <view class="play-name">{{name}}</view>
+</view>

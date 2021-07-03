@@ -2,7 +2,8 @@
   "pages": [
     "pages/playList/play",
     "pages/blog/blog",
-    "pages/user/user"
+    "pages/user/user",
+    "components/playList/playList"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
@@ -16,24 +17,24 @@
     "selectedColor": "#d43c43",
     "list": [
       {
-      "pagePath": "pages/playList/play",
-      "text": "音乐",
-      "iconPath": "images/music.png",
-      "selectedIconPath": "images/music-active.png"
-    },
-    {
-      "pagePath": "pages/blog/blog",
-      "text": "发现",
-      "iconPath": "images/find.png",
-      "selectedIconPath": "images/find-active.png"
-    },
-    {
-      "pagePath": "pages/user/user",
-      "text": "我的",
-      "iconPath": "images/user.png",
-      "selectedIconPath": "images/user-active.png"
-    }
-  ]
+        "pagePath": "pages/playList/play",
+        "text": "音乐",
+        "iconPath": "images/music.png",
+        "selectedIconPath": "images/music-active.png"
+      },
+      {
+        "pagePath": "pages/blog/blog",
+        "text": "发现",
+        "iconPath": "images/find.png",
+        "selectedIconPath": "images/find-active.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "images/user.png",
+        "selectedIconPath": "images/user-active.png"
+      }
+    ]
   },
   "sitemapLocation": "sitemap.json",
   "style": "v2"
