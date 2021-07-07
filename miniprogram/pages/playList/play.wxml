@@ -19,7 +19,7 @@
   <block wx:for="{{playList}}" wx:key="url">
     <view class="play-container">
       <l-playList
-      picUrl="{{item.picUrl}}"
+      picUrl="{{item.coverImgUrl}}"
       count="{{item.playCount}}"
       name="{{item.name}}"
     ></l-playList>
